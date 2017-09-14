@@ -1,3 +1,63 @@
 <div>
-  <h1> Hello World </h1>
+  <h1>Business Info</h1>
+
+  <form name="businessForm">
+    <input
+      type="text"
+      name="businessName"
+      class="form-control"
+      placeholder="Business Name"
+      value="Baseball"
+      ng-model="homeCtrl.business.businessName">
+
+    <input
+      type="text"
+      name="street"
+      class="form-control"
+      placeholder="Street"
+      value="123 Easy St"
+      ng-model="homeCtrl.business.street">
+
+    <input
+      type="text"
+      name="city"
+      class="form-control"
+      placeholder="City"
+      value="Seattle"
+      ng-model="homeCtrl.business.city">
+
+    <input
+      type="text"
+      name="state"
+      class="form-control"
+      placeholder="State"
+      value="WA"
+      ng-model="homeCtrl.business.state">
+
+    <input
+      type="number"
+      name="postalCode"
+      class="form-control"
+      placeholder="Postal Code"
+      value="11111"
+      ng-model="homeCtrl.business.postalCode">
+
+    <input
+      type="text"
+      name="country"
+      class="form-control"
+      placeholder="Country"
+      value="US"
+      ng-model="homeCtrl.business.country">
+
+    <input
+      type="number"
+      name="phoneNumber"
+      class="form-control"
+      placeholder="Phone Number"
+      value="1111111111"
+      ng-model="homeCtrl.business.phoneNumber">
+
+    <button class="btn" ng-click="homeCtrl.open(homeCtrl.business)"> Preview Business </button>
+  </form>
 </div>

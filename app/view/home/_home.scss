@@ -1,0 +1,10 @@
+@import "theme";
+
+div {
+  background-color: $app-white;
+}
+
+div input {
+  display: block;
+  padding: 2px;
+}
